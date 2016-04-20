@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[letterpaper]{article}
 \usepackage[utf8]{inputenc}
 
 % Fonts
@@ -13,12 +13,13 @@
 
 % Spacing
 \setlength{\parindent}{0pt}
+\usepackage[compact]{titlesec}
 
 % Disable Page Numbers
 \pagenumbering{gobble}
 
 % Margins
-\usepackage[top=1in, bottom=1.25in, left=1.5in, right=1.5in]{geometry}
+\usepackage[top=.5in, bottom=.5in, left=1in, right=1in]{geometry}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,8 +33,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
     {\LARGE Michael Younkin}
-
-    \href{http://www.michaelyounkin.com}{www.michaelyounkin.com}
 
     \href{mailto:younkin.michael@gmail.com}{younkin.michael@gmail.com}
 \end{center}
@@ -54,45 +53,73 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Experience
+% Internships
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Internships}
 
 \subsectiondate{Amazon.com}{2015}
 
-Developed software to reduce machine learning model error rates
+\begin{itemize}
+    \item Researched methods to improve machine learning model accuracy.
+    \item Designed and implemented model improvement algorithm using AWS resources.
+\end{itemize}
 
 \subsectiondate{Bloomberg L.P.}{2014}
 
-Developed analysis and visualization toolkit based on OpenTSDB
+\begin{itemize}
+    \item Designed and implemented Bloomberg service interface for OpenTSDB.
+    \item Implemented visualization and analysis toolkit using next generation UI technology.
+\end{itemize}
 
 \subsectiondate{NASA Jet Propulsion Laboratory}{2013}
 
-Developed web app for Mars rover backup data visualization
+\begin{itemize}
+    \item Designed and implemented RESTful API for Mars rover backup data.
+    \item Designed and implemented backup data visualization system.
+\end{itemize}
 
 \subsectiondate{Applied Media Analysis, Inc.}{2012--2013}
 
-Developed Arabic text processing technology
+\begin{itemize}
+    \item Implemented Arabic PDF data processing engine.
+    \item Refactored existing analysis engine to improve efficiency and maintainability.
+\end{itemize}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Other Experience}
+
+\subsectiondate{TA for CMSC330}{2015--2016}
+
+\begin{itemize}
+    \item Taught Ruby, OCaml, Prolog, Regexps, NFAs, DFAs, CFGs, parsers
+    \item Worked with professors to manage curriculum and lead other TAs
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Skills
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Skills}
 
-\subsection*{Highly Proficient}
-JavaScript, HTML, CSS, Python, C, Java, SQLite
+\subsection*{Best Languages (subject to fluctuation)}
+Python, Rust, Java, JavaScript, Lambda Calculus
 
-\subsection*{Proficient}
-Ruby, Rust, PostgreSQL, OpenTSDB
+\subsection*{Most Knowledgable In}
+Low Level Computer Systems, Full Stack Web Development
+
+\subsection*{Tools of Choice}
+git, (neo)vim, tmux, fish shell
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Footer
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{For More Detailed Information}
-Please visit \href{http://www.michaelyounkin.com/about.html}{my website's about
-page}.
+\section*{Personal Projects}
+As of March 6, 2016, I work on personal projects every day.
+My projects and progress are visible at \href{https://github.com/michael-younkin}{https://github.com/michael-younkin}.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % End Document
